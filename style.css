@@ -1,3 +1,7 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 :root{
   --bg-color: black;
   --sec-bg-color: #1a1a1a;
@@ -84,6 +88,7 @@ footer{
 }
 .part2{
   margin-left: 50px;
+  margin-top: 20px;
 }
 .part{
   margin: 30px;
@@ -95,7 +100,16 @@ footer{
   display: inline;
   margin-right: 30px;
   color: rgb(63, 155, 247);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+}
+.cv-links:hover{
+  color: var(--main-color);
 }
 .cv-links-part{
   text-align: center;
+}
+.certi{
+  margin-left: 10px;
 }
