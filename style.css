@@ -1,0 +1,101 @@
+:root{
+  --bg-color: black;
+  --sec-bg-color: #1a1a1a;
+  --text-color:white;
+  --main-color:rgb(255, 111, 0);
+}
+
+html{
+  font-size: 90%;
+}
+
+body{
+  background: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+}
+
+nav{
+  background-color: var(--sec-bg-color);
+  padding: 15px;
+  text-align: center;
+}
+
+nav a{
+  color: var(--text-color);
+  text-decoration:none;
+}
+
+nav a:hover{
+  color: var(--main-color);
+}
+
+dt{
+  margin: 7px;
+}
+dd{
+  margin-bottom: 22px;
+}
+
+
+div{
+  margin: 50px;
+}
+
+
+footer{
+  text-align: center;
+  color: var(--text-color);
+  background-color: rgb(51, 51, 51);
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.inNav{
+  display: inline;
+  margin-right: 20px;
+}
+
+
+.about{
+  margin-left: 50px;
+}
+.myName{
+  color: var(--main-color);
+  text-align: center;
+}
+.ksu{
+  color: rgb(0, 136, 255);
+}
+.Back-to-top{
+  padding: 10px;
+  border-radius: 30px;
+  background-color: var(--main-color);
+  color: var(balck);
+  margin-left: 50px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid transparent;
+  font-weight: 600;
+
+}
+.Back-to-top:hover{
+  transform: scale(1.05);
+  background-color: rgb(63, 155, 247);
+}
+.part2{
+  margin-left: 50px;
+}
+.part{
+  margin: 30px;
+}
+.ul-skills{
+  font-weight: bold;
+}
+.cv-links{
+  display: inline;
+  margin-right: 30px;
+  color: rgb(63, 155, 247);
+}
+.cv-links-part{
+  text-align: center;
+}
