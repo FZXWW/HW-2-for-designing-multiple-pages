@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <div id="top"></div>
 
-    <nav role="navigation">
+<body>
+  <div id="top"></div>
+
+  <nav role="navigation">
     <ul>
       <li class="inNav"> <a href="index.html">Home</a> </li>
       <li class="inNav"> <a href="cv.html">CV</a> </li>
@@ -18,15 +20,50 @@
     </ul>
   </nav>
 
+  <header>
+    <h1 class="PageTopic">Git in touch with me</h1>
+  </header>
+
+
   <main>
+    <form>
+
+      <div class="c-form">
+        <label>Name</label>
+        <input type="text" name="name" placeholder="Your name" required>
+      </div>
+
+      <div class="c-form">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Your email" required>
+      </div>
+
+      <div class="c-form">
+        <label>Message</label>
+        <input name="message" placeholder="Your message" required></input>
+      </div>
+
+
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <div class="contact-btn" >
+      <a href="mailto:dr.fmfm2004@email.com" target="_blank" class="c-btn">Email Me 📩</a>
     
+    
+    
+      <a href="https://wa.me/966566445570" target="_blank" class="c-btn">WhatsApp Me</a>
+    </div>
+
   </main>
 
-   <a href="#top"><button class="Back-to-top">back to top</button></a>
+  <a href="#top"><button class="Back-to-top">back to top</button></a>
+
 
   <footer class="footer">
-    Made by <span class="myName">Mohammad Alqurashi</span> &copy; 2026
+    Made by <span class="PageTopic">Mohammad Alqurashi</span> &copy; 2026
   </footer>
-  
+
 </body>
+
 </html>
