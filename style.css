@@ -112,3 +112,39 @@ footer{
 .certi{
   margin-left: 10px;
 }
+
+.picture img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+.picture img:hover {
+  transform: scale(1.05);
+}
+.projectName{
+  text-align: center;
+  color: var(--main-color);
+}
+.btn{
+  background-color: rgb(7, 144, 255);
+  display: block;
+  width: fit-content;
+  border-radius: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+  margin:20px auto;
+}
+.btn:hover{
+  background-color:var(--main-color);
+  transform: scale(1.05);
+}
