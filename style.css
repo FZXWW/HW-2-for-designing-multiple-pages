@@ -195,3 +195,19 @@ footer{
   border: 2px solid var(--main-color);
   color: black;
 }
+
+article button {
+    background-color: var(--sec-bg-color);
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+    padding: 5px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+article button:hover {
+    background-color: var(--main-color);
+    color: black;
+}

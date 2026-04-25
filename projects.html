@@ -26,11 +26,12 @@
 
     <article class="P-article">
       <h2 class="projectName">To Do List</h2>
-      <p>A highly interactive, custom-styled To-Do application built 
+      <p id="desc1">A highly interactive, custom-styled To-Do application built 
         with Vanilla HTML, CSS, and JavaScript. This project focuses on providing 
         a personalized environment for managing deadlines through a clean, 
         user-controlled interface.
       </p>
+      <button onclick="toggleDescription('desc1')">Show/Hide Description</button>
       <ul>
         <h3>Key features:</h3>
         <li>Theme Customization: Includes a fully functional Dark and Light Mode toggle, allowing users to choose the visual style that suits them best.</li>
@@ -50,12 +51,14 @@
 
     <article class="P-article">
       <h2 class="projectName">Smart Restaurant & Café Reservation</h2>
-      <p>The project is a Smart Restaurant & Café Reservation System designed for 
+      <p id="desc2">The project is a Smart Restaurant & Café Reservation System designed for 
         trendy and crowded places where demand for tables is very high. The system 
         will allow customers to reserve tables online using dynamic Reservation, 
         view menus, read reviews, check opening hours, and even see how crowded 
         the restaurant is in real time.
       </p>
+      <button onclick="toggleDescription('desc2')">Show/Hide Description</button>
+      <br>
       <time datetime="2025-09-29">September 29, 2025</time>
       <figure class="picture">
         <img src="Pictures/RestaurantReservationPicture.jpg" alt="">
@@ -72,5 +75,6 @@
     Made by <span class="PageTopic">Mohammad Alqurashi</span> &copy; 2026
   </footer>
   
+  <script src="scripts.js"></script>
 </body>
 </html>
